@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: Crop_harmony
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    autoDeploy: true
